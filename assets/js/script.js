@@ -124,11 +124,11 @@ function showProjects(projects) {
     });
     projectsContainer.innerHTML = projectHTML;
 
-    // <!-- tilt js effect starts -->
-    VanillaTilt.init(document.querySelectorAll(".tilt"), {
-        max: 15,
-    });
-    // <!-- tilt js effect ends -->
+    // // <!-- tilt js effect starts 
+    // VanillaTilt.init(document.querySelectorAll(".tilt"), {
+    //     max: 15,
+    // }); -->
+    // // <!-- tilt js effect ends -->
 
     /* ===== SCROLL REVEAL ANIMATION ===== */
     const srtop = ScrollReveal({
@@ -250,4 +250,5 @@ srtop.reveal('.experience .timeline .container', { interval: 400 });
 srtop.reveal('.contact .container', { delay: 400 });
 
 srtop.reveal('.contact .container .form-group', { delay: 400 });
+
 
