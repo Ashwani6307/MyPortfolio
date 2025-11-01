@@ -62,10 +62,7 @@ document.addEventListener('visibilitychange',
             document.title = "Portfolio | Ashwani";
             $("#favicon").attr("href", "assets/images/favicon.png");
         }
-        else {
-            document.title = "Come Back To Portfolio";
-            $("#favicon").attr("href", "assets/images/favhand.png");
-        }
+        
     });
 
 
@@ -253,3 +250,4 @@ srtop.reveal('.experience .timeline .container', { interval: 400 });
 srtop.reveal('.contact .container', { delay: 400 });
 
 srtop.reveal('.contact .container .form-group', { delay: 400 });
+
